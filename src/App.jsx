@@ -5,6 +5,9 @@ function App() {
     <div className='App'>
       <h1>Hola Mundo</h1>
     </div>
+    <div className='App'>
+      <h1>Hola Mundo</h1>
+    </div>
     </>
   )
 }
