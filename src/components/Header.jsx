@@ -1,9 +1,11 @@
 function Header(){
 
     return(
-        <h1>Desde Header</h1>
+        <header>
+        <h1 className="text-indigo-600 mt-2 uppercase">Desde Header</h1>
+        </header>
     )
 }
 
 
-export default Header
+export default Header;
