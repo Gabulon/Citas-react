@@ -1,4 +1,9 @@
+ import { useState,useEffect } from "react";
+
 function Formulario(){
+
+    const [Nombre,setNombre]=useState('');
+    
 
     return(
         <div className="md:w-1/2 lg:w-2/5">
@@ -16,7 +21,8 @@ function Formulario(){
                     id="mascota"
                     placeholder="Nombre de la mascota"
                     className="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md"
-
+                    value={nombre}
+                    onChange={(e)=>setNombre(e.target.value)}
                     />
                 </div >
                 <div className="mb-5">
